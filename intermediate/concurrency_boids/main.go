@@ -12,7 +12,7 @@ const (
 	screenWidth, screenHeight = 640, 360
 	boidCount                 = 500
 	viewRadius                = 13
-	adjRate                   = 0.015
+	adjRate                   = 0.03
 )
 
 var (
