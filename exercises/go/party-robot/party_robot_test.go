@@ -63,7 +63,7 @@ func TestAssignTable(t *testing.T) {
 			tableNumber:   27,
 			distance:      23.7834298,
 			neighbourName: "Frank",
-			want:          "Welcome to my party, Christiane!\nYou have been assigned to table 1B. Your table is on the left, exactly 23.8 meters from here.\nYou will be sitting next to Frank.",
+			want:          "Welcome to my party, Christiane!\nYou have been assigned to table 27. Your table is on the left, exactly 23.8 meters from here.\nYou will be sitting next to Frank.",
 		},
 	}
 	for _, tt := range tests {
